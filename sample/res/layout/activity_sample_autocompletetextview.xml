@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:roboto="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="4dp" >
+
+        <com.eevoskos.robotoviews.widget.RobotoAutoCompleteTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Roboto Regular"
+            roboto:typeface="regular"
+            tools:ignore="HardcodedText" />
+
+        <com.eevoskos.robotoviews.widget.RobotoAutoCompleteTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Roboto Bold"
+            roboto:typeface="bold"
+            tools:ignore="HardcodedText" />
+
+        <com.eevoskos.robotoviews.widget.RobotoAutoCompleteTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Roboto Italic"
+            roboto:typeface="italic"
+            tools:ignore="HardcodedText" />
+
+        <com.eevoskos.robotoviews.widget.RobotoAutoCompleteTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Roboto Bold Italic"
+            roboto:typeface="bold_italic"
+            tools:ignore="HardcodedText" />
+
+        <com.eevoskos.robotoviews.widget.RobotoAutoCompleteTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Roboto Black"
+            roboto:typeface="black"
+            tools:ignore="HardcodedText" />
+
+        <com.eevoskos.robotoviews.widget.RobotoAutoCompleteTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Roboto Black Italic"
+            roboto:typeface="black_italic"
+            tools:ignore="HardcodedText" />
+
+        <com.eevoskos.robotoviews.widget.RobotoAutoCompleteTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Roboto Condensed"
+            roboto:typeface="condensed"
+            tools:ignore="HardcodedText" />
+
+        <com.eevoskos.robotoviews.widget.RobotoAutoCompleteTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Roboto Condensed Bold"
+            roboto:typeface="condensed_bold"
+            tools:ignore="HardcodedText" />
+
+        <com.eevoskos.robotoviews.widget.RobotoAutoCompleteTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Roboto Condensed Italic"
+            roboto:typeface="condensed_italic"
+            tools:ignore="HardcodedText" />
+
+        <com.eevoskos.robotoviews.widget.RobotoAutoCompleteTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Roboto Condensed Bold Italic"
+            roboto:typeface="condensed_bold_italic"
+            tools:ignore="HardcodedText" />
+
+        <com.eevoskos.robotoviews.widget.RobotoAutoCompleteTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Roboto Light"
+            roboto:typeface="light"
+            tools:ignore="HardcodedText" />
+
+        <com.eevoskos.robotoviews.widget.RobotoAutoCompleteTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Roboto Light Italic"
+            roboto:typeface="light_italic"
+            tools:ignore="HardcodedText" />
+
+        <com.eevoskos.robotoviews.widget.RobotoAutoCompleteTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Roboto Medium"
+            roboto:typeface="medium"
+            tools:ignore="HardcodedText" />
+
+        <com.eevoskos.robotoviews.widget.RobotoAutoCompleteTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Roboto Medium Italic"
+            roboto:typeface="medium_italic"
+            tools:ignore="HardcodedText" />
+
+        <com.eevoskos.robotoviews.widget.RobotoAutoCompleteTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Roboto Thin"
+            roboto:typeface="thin"
+            tools:ignore="HardcodedText" />
+
+        <com.eevoskos.robotoviews.widget.RobotoAutoCompleteTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Roboto Thin Italic"
+            roboto:typeface="thin_italic"
+            tools:ignore="HardcodedText" />
+    </LinearLayout>
+
+</ScrollView>

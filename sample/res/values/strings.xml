@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">RobotoViews Sample</string>
+    
+    <string name="sample_textview">TextView</string>
+    <string name="sample_button">Button</string>
+    <string name="sample_edittext">EditText</string>
+    <string name="sample_autocompletetextview">AutoCompleteTextView</string>
+
+</resources>
