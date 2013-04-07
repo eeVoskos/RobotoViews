@@ -14,7 +14,7 @@
         <com.eevoskos.robotoviews.widget.RobotoTextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:padding="2dp"
+            android:padding="2dp" android:textSize="16sp"
             android:text="Roboto Regular"
             roboto:typeface="regular"
             tools:ignore="HardcodedText" />
@@ -22,7 +22,7 @@
         <com.eevoskos.robotoviews.widget.RobotoTextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:padding="2dp"
+            android:padding="2dp" android:textSize="16sp"
             android:text="Roboto Bold"
             roboto:typeface="bold"
             tools:ignore="HardcodedText" />
@@ -30,7 +30,7 @@
         <com.eevoskos.robotoviews.widget.RobotoTextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:padding="2dp"
+            android:padding="2dp" android:textSize="16sp"
             android:text="Roboto Italic"
             roboto:typeface="italic"
             tools:ignore="HardcodedText" />
@@ -38,7 +38,7 @@
         <com.eevoskos.robotoviews.widget.RobotoTextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:padding="2dp"
+            android:padding="2dp" android:textSize="16sp"
             android:text="Roboto Bold Italic"
             roboto:typeface="bold_italic"
             tools:ignore="HardcodedText" />
@@ -46,7 +46,7 @@
         <com.eevoskos.robotoviews.widget.RobotoTextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:padding="2dp"
+            android:padding="2dp" android:textSize="16sp"
             android:text="Roboto Black"
             roboto:typeface="black"
             tools:ignore="HardcodedText" />
@@ -54,7 +54,7 @@
         <com.eevoskos.robotoviews.widget.RobotoTextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:padding="2dp"
+            android:padding="2dp" android:textSize="16sp"
             android:text="Roboto Black Italic"
             roboto:typeface="black_italic"
             tools:ignore="HardcodedText" />
@@ -62,7 +62,7 @@
         <com.eevoskos.robotoviews.widget.RobotoTextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:padding="2dp"
+            android:padding="2dp" android:textSize="16sp"
             android:text="Roboto Condensed"
             roboto:typeface="condensed"
             tools:ignore="HardcodedText" />
@@ -70,7 +70,7 @@
         <com.eevoskos.robotoviews.widget.RobotoTextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:padding="2dp"
+            android:padding="2dp" android:textSize="16sp"
             android:text="Roboto Condensed Bold"
             roboto:typeface="condensed_bold"
             tools:ignore="HardcodedText" />
@@ -78,7 +78,7 @@
         <com.eevoskos.robotoviews.widget.RobotoTextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:padding="2dp"
+            android:padding="2dp" android:textSize="16sp"
             android:text="Roboto Condensed Italic"
             roboto:typeface="condensed_italic"
             tools:ignore="HardcodedText" />
@@ -86,7 +86,7 @@
         <com.eevoskos.robotoviews.widget.RobotoTextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:padding="2dp"
+            android:padding="2dp" android:textSize="16sp"
             android:text="Roboto Condensed Bold Italic"
             roboto:typeface="condensed_bold_italic"
             tools:ignore="HardcodedText" />
@@ -94,7 +94,7 @@
         <com.eevoskos.robotoviews.widget.RobotoTextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:padding="2dp"
+            android:padding="2dp" android:textSize="16sp"
             android:text="Roboto Light"
             roboto:typeface="light"
             tools:ignore="HardcodedText" />
@@ -102,7 +102,7 @@
         <com.eevoskos.robotoviews.widget.RobotoTextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:padding="2dp"
+            android:padding="2dp" android:textSize="16sp"
             android:text="Roboto Light Italic"
             roboto:typeface="light_italic"
             tools:ignore="HardcodedText" />
@@ -110,7 +110,7 @@
         <com.eevoskos.robotoviews.widget.RobotoTextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:padding="2dp"
+            android:padding="2dp" android:textSize="16sp"
             android:text="Roboto Medium"
             roboto:typeface="medium"
             tools:ignore="HardcodedText" />
@@ -118,7 +118,7 @@
         <com.eevoskos.robotoviews.widget.RobotoTextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:padding="2dp"
+            android:padding="2dp" android:textSize="16sp"
             android:text="Roboto Medium Italic"
             roboto:typeface="medium_italic"
             tools:ignore="HardcodedText" />
@@ -126,7 +126,7 @@
         <com.eevoskos.robotoviews.widget.RobotoTextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:padding="2dp"
+            android:padding="2dp" android:textSize="16sp"
             android:text="Roboto Thin"
             roboto:typeface="thin"
             tools:ignore="HardcodedText" />
@@ -136,8 +136,10 @@
             android:layout_height="wrap_content"
             android:padding="2dp"
             android:text="Roboto Thin Italic"
+            android:textSize="16sp"
             roboto:typeface="thin_italic"
             tools:ignore="HardcodedText" />
+
     </LinearLayout>
 
 </ScrollView>
