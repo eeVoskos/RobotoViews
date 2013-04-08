@@ -122,6 +122,34 @@
             android:text="Roboto Thin Italic"
             roboto:typeface="thin_italic"
             tools:ignore="HardcodedText" />
+
+        <com.eevoskos.robotoviews.widget.RobotoButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Roboto Slab Regular"
+            roboto:typeface="slab_regular"
+            tools:ignore="HardcodedText" />
+
+        <com.eevoskos.robotoviews.widget.RobotoButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Roboto Slab Bold"
+            roboto:typeface="slab_bold"
+            tools:ignore="HardcodedText" />
+
+        <com.eevoskos.robotoviews.widget.RobotoButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Roboto Slab Light"
+            roboto:typeface="slab_light"
+            tools:ignore="HardcodedText" />
+
+        <com.eevoskos.robotoviews.widget.RobotoButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Roboto Slab Thin"
+            roboto:typeface="slab_thin"
+            tools:ignore="HardcodedText" />
     </LinearLayout>
 
 </ScrollView>

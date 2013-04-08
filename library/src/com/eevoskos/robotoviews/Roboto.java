@@ -126,6 +126,14 @@ public class Roboto implements RobotoValues {
             return R.raw.roboto_thin;
         } else if (id == ROBOTO_THIN_ITALIC) {
             return R.raw.roboto_thin_italic;
+        } else if (id == ROBOTO_SLAB_REGULAR) {
+            return R.raw.roboto_slab_regular;
+        } else if (id == ROBOTO_SLAB_BOLD) {
+            return R.raw.roboto_slab_bold;
+        } else if (id == ROBOTO_SLAB_LIGHT) {
+            return R.raw.roboto_slab_light;
+        } else if (id == ROBOTO_SLAB_THIN) {
+            return R.raw.roboto_slab_thin;
         }
         return R.raw.roboto_regular;
     }

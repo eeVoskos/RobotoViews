@@ -140,6 +140,42 @@
             roboto:typeface="thin_italic"
             tools:ignore="HardcodedText" />
 
+        <com.eevoskos.robotoviews.widget.RobotoTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="2dp"
+            android:text="Roboto Slab Regular"
+            android:textSize="16sp"
+            roboto:typeface="slab_regular"
+            tools:ignore="HardcodedText" />
+
+        <com.eevoskos.robotoviews.widget.RobotoTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="2dp"
+            android:text="Roboto Slab Bold"
+            android:textSize="16sp"
+            roboto:typeface="slab_bold"
+            tools:ignore="HardcodedText" />
+
+        <com.eevoskos.robotoviews.widget.RobotoTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="2dp"
+            android:text="Roboto Slab Light"
+            android:textSize="16sp"
+            roboto:typeface="slab_light"
+            tools:ignore="HardcodedText" />
+
+        <com.eevoskos.robotoviews.widget.RobotoTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="2dp"
+            android:text="Roboto Slab Thin"
+            android:textSize="16sp"
+            roboto:typeface="slab_thin"
+            tools:ignore="HardcodedText" />
+
     </LinearLayout>
 
 </ScrollView>

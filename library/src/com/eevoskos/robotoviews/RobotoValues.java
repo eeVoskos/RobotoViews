@@ -19,5 +19,9 @@ public interface RobotoValues {
     public final static int ROBOTO_MEDIUM_ITALIC = 13;
     public final static int ROBOTO_THIN = 14;
     public final static int ROBOTO_THIN_ITALIC = 15;
+    public final static int ROBOTO_SLAB_REGULAR = 16;
+    public final static int ROBOTO_SLAB_BOLD = 17;
+    public final static int ROBOTO_SLAB_LIGHT = 18;
+    public final static int ROBOTO_SLAB_THIN = 19;
 
 }
