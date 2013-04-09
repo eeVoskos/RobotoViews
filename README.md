@@ -7,6 +7,9 @@ The current version includes the following views:
 - ```RobotoButton```
 - ```RobotoEditText```
 - ```RobotoAutoCompleteTextView```
+- ```RobotoCheckBox```
+- ```RobotoRadioButton```
+- ```RobotoToggleButton```
 
 Usage
 =====
