@@ -11,6 +11,15 @@
         android:orientation="vertical"
         android:padding="4dp" >
 
+        <FrameLayout
+            android:id="@+id/focus_fix"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:focusable="true"
+            android:focusableInTouchMode="true" >
+            <requestFocus />
+        </FrameLayout>
+
         <com.eevoskos.robotoviews.widget.RobotoAutoCompleteTextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

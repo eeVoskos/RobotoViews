@@ -22,6 +22,9 @@ public class MainActivity extends ListActivity {
         items.add(getString(R.string.sample_button));
         items.add(getString(R.string.sample_edittext));
         items.add(getString(R.string.sample_autocompletetextview));
+        items.add(getString(R.string.sample_checkbox));
+        items.add(getString(R.string.sample_radiobutton));
+        items.add(getString(R.string.sample_togglebutton));
 
         setListAdapter(new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1,
                 android.R.id.text1, items));
@@ -40,6 +43,12 @@ public class MainActivity extends ListActivity {
         } else if (TextUtils.equals(title, getString(R.string.sample_autocompletetextview))) {
             intent.putExtra(SampleActivity.EXTRA_LAYOUT_ID,
                     R.layout.activity_sample_autocompletetextview);
+        } else if (TextUtils.equals(title, getString(R.string.sample_checkbox))) {
+            intent.putExtra(SampleActivity.EXTRA_LAYOUT_ID, R.layout.activity_sample_checkbox);
+        } else if (TextUtils.equals(title, getString(R.string.sample_radiobutton))) {
+            intent.putExtra(SampleActivity.EXTRA_LAYOUT_ID, R.layout.activity_sample_radiobutton);
+        } else if (TextUtils.equals(title, getString(R.string.sample_togglebutton))) {
+            intent.putExtra(SampleActivity.EXTRA_LAYOUT_ID, R.layout.activity_sample_togglebutton);
         } else {
             return;
         }

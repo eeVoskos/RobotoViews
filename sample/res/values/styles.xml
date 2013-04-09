@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="RobotoViews" parent="@android:style/Theme">
+        <item name="android:buttonStyleToggle">@style/ToggleButtonStyle</item>
+    </style>
+
+    <style name="ToggleButtonStyle" parent="@android:style/Widget.Button.Toggle">
+        <item name="android:textOn"></item>
+        <item name="android:textOff"></item>
+    </style>
+
+</resources>

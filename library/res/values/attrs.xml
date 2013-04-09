@@ -40,4 +40,16 @@
         <attr name="typeface" />
     </declare-styleable>
 
+    <declare-styleable name="RobotoCheckBox">
+        <attr name="typeface" />
+    </declare-styleable>
+
+    <declare-styleable name="RobotoRadioButton">
+        <attr name="typeface" />
+    </declare-styleable>
+
+    <declare-styleable name="RobotoToggleButton">
+        <attr name="typeface" />
+    </declare-styleable>
+
 </resources>
