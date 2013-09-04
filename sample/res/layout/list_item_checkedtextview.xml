@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.eevoskos.robotoviews.widget.RobotoCheckedTextView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:roboto="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/text"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:ellipsize="end"
+    android:lines="1"
+    android:padding="4dp"
+    android:text="@string/stub"
+    android:textColor="@color/text_color_selector"
+    android:textSize="16sp"
+    roboto:typeface="regular" />

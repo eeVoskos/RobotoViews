@@ -1,3 +1,4 @@
+
 package com.eevoskos.robotoviews.sample;
 
 import java.util.ArrayList;
@@ -25,6 +26,7 @@ public class MainActivity extends ListActivity {
         items.add(getString(R.string.sample_checkbox));
         items.add(getString(R.string.sample_radiobutton));
         items.add(getString(R.string.sample_togglebutton));
+        items.add(getString(R.string.sample_checkedtextview));
 
         setListAdapter(new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1,
                 android.R.id.text1, items));
@@ -49,6 +51,9 @@ public class MainActivity extends ListActivity {
             intent.putExtra(SampleActivity.EXTRA_LAYOUT_ID, R.layout.activity_sample_radiobutton);
         } else if (TextUtils.equals(title, getString(R.string.sample_togglebutton))) {
             intent.putExtra(SampleActivity.EXTRA_LAYOUT_ID, R.layout.activity_sample_togglebutton);
+        } else if (TextUtils.equals(title, getString(R.string.sample_checkedtextview))) {
+            intent.putExtra(SampleActivity.EXTRA_LAYOUT_ID,
+                    R.layout.activity_sample_checkedtextview);
         } else {
             return;
         }

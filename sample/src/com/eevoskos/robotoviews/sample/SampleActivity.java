@@ -1,9 +1,9 @@
 package com.eevoskos.robotoviews.sample;
 
-import android.app.Activity;
 import android.os.Bundle;
+import android.support.v4.app.FragmentActivity;
 
-public class SampleActivity extends Activity {
+public class SampleActivity extends FragmentActivity {
 
     public static final String EXTRA_LAYOUT_ID = "layout_id";
     public static final String EXTRA_TITLE = "title_id";

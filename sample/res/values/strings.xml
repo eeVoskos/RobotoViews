@@ -2,7 +2,6 @@
 <resources>
 
     <string name="app_name">RobotoViews Sample</string>
-    
     <string name="sample_autocompletetextview">AutoCompleteTextView</string>
     <string name="sample_button">Button</string>
     <string name="sample_checkbox">CheckBox</string>
@@ -11,5 +10,6 @@
     <string name="sample_radiobutton">RadioButton</string>
     <string name="sample_textview">TextView</string>
     <string name="sample_togglebutton">ToogleButton</string>
+    <string name="stub">The quick brown fox jumps over the lazy dog</string>
 
 </resources>
