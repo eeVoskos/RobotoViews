@@ -3,13 +3,14 @@ RobotoViews
 RobotoViews is an Android library hosting a collection of Views that use the 
 [Roboto][1] font, including the newest member of the family, Roboto Slab. 
 The current version includes the following views:
-- ```RobotoTextView```
-- ```RobotoButton```
-- ```RobotoEditText```
-- ```RobotoAutoCompleteTextView```
-- ```RobotoCheckBox```
-- ```RobotoRadioButton```
-- ```RobotoToggleButton```
+- `RobotoTextView`
+- `RobotoButton`
+- `RobotoEditText`
+- `RobotoAutoCompleteTextView`
+- `RobotoCheckBox`
+- `RobotoRadioButton`
+- `RobotoToggleButton`
+- `RobotoCheckedTextView`
 
 Usage
 =====
