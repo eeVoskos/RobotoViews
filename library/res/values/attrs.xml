@@ -28,6 +28,10 @@
         <attr name="typeface" />
     </declare-styleable>
 
+    <declare-styleable name="RobotoCheckedTextView">
+        <attr name="typeface" />
+    </declare-styleable>
+
     <declare-styleable name="RobotoButton">
         <attr name="typeface" />
     </declare-styleable>
