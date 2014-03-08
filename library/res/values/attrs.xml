@@ -55,5 +55,9 @@
     <declare-styleable name="RobotoToggleButton">
         <attr name="typeface" />
     </declare-styleable>
+    
+    <declare-styleable name="RobotoSwitch">
+        <attr name="typeface" />
+    </declare-styleable>
 
 </resources>

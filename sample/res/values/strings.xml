@@ -10,6 +10,7 @@
     <string name="sample_radiobutton">RadioButton</string>
     <string name="sample_textview">TextView</string>
     <string name="sample_togglebutton">ToogleButton</string>
+    <string name="sample_switch">Switch</string>
     <string name="stub">The quick brown fox jumps over the lazy dog</string>
 
 </resources>
