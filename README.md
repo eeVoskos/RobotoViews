@@ -11,6 +11,7 @@ The current version includes the following views:
 - `RobotoRadioButton`
 - `RobotoToggleButton`
 - `RobotoCheckedTextView`
+- `RobotoSwitch` (Android 4.0+)
 
 Usage
 =====
