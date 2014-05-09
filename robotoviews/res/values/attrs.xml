@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="typeface">
+        <enum name="regular" value="0" />
+        <enum name="bold" value="1" />
+        <enum name="italic" value="2" />
+        <enum name="bold_italic" value="3" />
+        <enum name="black" value="4" />
+        <enum name="black_italic" value="5" />
+        <enum name="condensed" value="6" />
+        <enum name="condensed_bold" value="7" />
+        <enum name="condensed_italic" value="8" />
+        <enum name="condensed_bold_italic" value="9" />
+        <enum name="light" value="10" />
+        <enum name="light_italic" value="11" />
+        <enum name="medium" value="12" />
+        <enum name="medium_italic" value="13" />
+        <enum name="thin" value="14" />
+        <enum name="thin_italic" value="15" />
+        <enum name="slab_regular" value="16" />
+        <enum name="slab_bold" value="17" />
+        <enum name="slab_light" value="18" />
+        <enum name="slab_thin" value="19" />
+    </attr>
+
+    <declare-styleable name="RobotoTextView">
+        <attr name="typeface" />
+    </declare-styleable>
+
+    <declare-styleable name="RobotoCheckedTextView">
+        <attr name="typeface" />
+    </declare-styleable>
+
+    <declare-styleable name="RobotoButton">
+        <attr name="typeface" />
+    </declare-styleable>
+
+    <declare-styleable name="RobotoEditText">
+        <attr name="typeface" />
+    </declare-styleable>
+
+    <declare-styleable name="RobotoAutoCompleteTextView">
+        <attr name="typeface" />
+    </declare-styleable>
+
+    <declare-styleable name="RobotoCheckBox">
+        <attr name="typeface" />
+    </declare-styleable>
+
+    <declare-styleable name="RobotoRadioButton">
+        <attr name="typeface" />
+    </declare-styleable>
+
+    <declare-styleable name="RobotoToggleButton">
+        <attr name="typeface" />
+    </declare-styleable>
+    
+    <declare-styleable name="RobotoSwitch">
+        <attr name="typeface" />
+    </declare-styleable>
+
+</resources>
