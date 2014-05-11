@@ -1,129 +1,179 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
-  <modelVersion>4.0.0</modelVersion>
+    <modelVersion>4.0.0</modelVersion>
 
-  <parent>
-    <groupId>org.sonatype.oss</groupId>
-    <artifactId>oss-parent</artifactId>
-    <version>7</version>
-  </parent>
+    <parent>
+        <groupId>org.sonatype.oss</groupId>
+        <artifactId>oss-parent</artifactId>
+        <version>7</version>
+    </parent>
 
-  <groupId>com.eevoskos</groupId>
-  <artifactId>robotoviews</artifactId>
-  <version>1.0.0-SNAPSHOT</version>
+    <groupId>com.eevoskos</groupId>
+    <artifactId>parent</artifactId>
+    <packaging>pom</packaging>
 
-  <name>RobotoViews</name>
-  <description>View "injection" for Android.</description>
-  <url>https://github.com/eeVoskos/RobotoViews</url>
-  <inceptionYear>2013</inceptionYear>
+    <name>RobotoViews</name>
+    <description>An Android library hosting a collection of Views that use the Roboto font.</description>
+    <url>https://github.com/eeVoskos/RobotoViews</url>
+    <inceptionYear>2013</inceptionYear>
+    <version>1.0.0-SNAPSHOT</version>
 
-  <properties>
-    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <modules>
+        <module>robotoviews</module>
+        <module>sample</module>
+    </modules>
 
-    <java.version>1.6</java.version>
-    <fest.version>2.0M10</fest.version>
-    <android.version>4.1.1.4</android.version>
-    <android.platform>16</android.platform>
-    <junit.version>4.10</junit.version>
-    <robolectric.version>2.2</robolectric.version>
-    <fest.android.version>1.0.7</fest.android.version>
-    <compile-test.version>0.5</compile-test.version>
-  </properties>
+    <scm>
+        <url>https://github.com/eeVoskos/RobotoViews</url>
+        <connection>scm:git:git://github.com/Ultimus85/RobotoViews.git</connection>
+        <developerConnection>scm:git:git@github.com:eeVoskos/RobotoViews.git</developerConnection>
+        <tag>HEAD</tag>
+    </scm>
 
-  <scm>
-    <url>http://github.com/eeVoskos/RobotoViews</url>
-    <connection>scm:git:git://github.com/JakeWharton/butterknife.git</connection>
-    <developerConnection>scm:git:ssh://git@github.com/JakeWharton/butterknife.git</developerConnection>
-    <tag>HEAD</tag>
-  </scm>
+    <developers>
+      <developer>
+            <name>Chris Margonis</name>
+            <email>chris.margonis@gmail.com</email>
+        </developer>
+    </developers>
 
-  <issueManagement>
-    <system>GitHub Issues</system>
-    <url>http://github.com/eeVoskos/RobotoViews/issues</url>
-  </issueManagement>
+    <licenses>
+        <license>
+            <name>Apache License Version 2.0</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
 
-  <licenses>
-    <license>
-      <name>Apache 2.0</name>
-      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
-    </license>
-  </licenses>
+    <issueManagement>
+        <system>GitHub Issues</system>
+        <url>https://github.com/eeVoskos/RobotoViews/issues</url>
+    </issueManagement>
 
-  <dependencyManagement>
-    <dependencies>
-      <dependency>
-        <groupId>com.google.android</groupId>
-        <artifactId>android</artifactId>
-        <version>${android.version}</version>
-      </dependency>
-    </dependencies>
-  </dependencyManagement>
+    <properties>
+        <!-- Project Properties -->
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <java.version>1.6</java.version>
+        <android.sdk.platform>16</android.sdk.platform>
 
-  <build>
-    <plugins>
-      <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-compiler-plugin</artifactId>
-        <version>3.0</version>
-        <configuration>
-          <source>${java.version}</source>
-          <target>${java.version}</target>
-          <showWarnings>true</showWarnings>
-        </configuration>
-      </plugin>
+        <!-- Dependency Versions -->
+        <android.version>4.1.1.4</android.version>
+        <android-support.version>r7</android-support.version>
+<!--         <nineoldandroids.version>2.4.0</nineoldandroids.version> -->
+<!--         <junit.version>4.10</junit.version> -->
 
-      <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-checkstyle-plugin</artifactId>
-        <version>2.9.1</version>
-        <configuration>
-          <failsOnError>true</failsOnError>
-          <configLocation>checkstyle.xml</configLocation>
-          <consoleOutput>true</consoleOutput>
-        </configuration>
-        <executions>
-          <execution>
-            <phase>verify</phase>
-            <goals>
-              <goal>checkstyle</goal>
-            </goals>
-          </execution>
-        </executions>
-      </plugin>
+        <!-- Plugin Versions -->
+        <android-maven-plugin.version>3.8.1</android-maven-plugin.version>
+        <build-helper-maven-plugin.version>1.7</build-helper-maven-plugin.version>
+        <maven-release-plugin.version>2.3.2</maven-release-plugin.version>
+        <maven-compiler-plugin.version>3.0</maven-compiler-plugin.version>
+        <maven-javadoc-plugin.version>2.9</maven-javadoc-plugin.version>
+        <maven-source-plugin.version>2.2.1</maven-source-plugin.version>
+        <maven-gpg-plugin.version>1.4</maven-gpg-plugin.version>
+    </properties>
 
-      <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-release-plugin</artifactId>
-        <version>2.4</version>
-        <configuration>
-          <autoVersionSubmodules>true</autoVersionSubmodules>
-        </configuration>
-      </plugin>
-    </plugins>
+    <dependencyManagement>
+        <dependencies>
+            <!-- Android -->
+            <dependency>
+                <groupId>com.google.android</groupId>
+                <artifactId>android</artifactId>
+                <version>${android.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.google.android</groupId>
+                <artifactId>support-v4</artifactId>
+                <version>${android-support.version}</version>
+            </dependency>
 
-    <pluginManagement>
-      <plugins>
-        <plugin>
-          <groupId>com.jayway.maven.plugins.android.generation2</groupId>
-          <artifactId>android-maven-plugin</artifactId>
-          <version>3.8.0</version>
-          <configuration>
-            <sdk>
-              <platform>${android.platform}</platform>
-            </sdk>
-          </configuration>
-        </plugin>
+            <!-- NineOldAndroids -->
+            <!--<dependency>
+                <groupId>com.nineoldandroids</groupId>
+                <artifactId>library</artifactId>
+                <version>${nineoldandroids.version}</version>
+            </dependency>-->
 
-        <plugin>
-          <groupId>org.apache.maven.plugins</groupId>
-          <artifactId>maven-javadoc-plugin</artifactId>
-          <version>2.9</version>
-          <configuration>
-            <additionalparam>-Xdoclint:none</additionalparam>
-          </configuration>
-        </plugin>
-      </plugins>
-    </pluginManagement>
-  </build>
-</project>
+            <!-- Testing -->
+            <!--<dependency>
+                <groupId>junit</groupId>
+                <artifactId>junit</artifactId>
+                <version>${junit.version}</version>
+                <scope>test</scope>
+            </dependency>-->
+        </dependencies>
+    </dependencyManagement>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-release-plugin</artifactId>
+                <version>${maven-release-plugin.version}</version>
+                <configuration>
+                    <autoVersionSubmodules>true</autoVersionSubmodules>
+                </configuration>
+            </plugin>
+        </plugins>
+
+        <pluginManagement>
+            <plugins>
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-compiler-plugin</artifactId>
+                    <version>${maven-compiler-plugin.version}</version>
+                    <configuration>
+                        <source>${java.version}</source>
+                        <target>${java.version}</target>
+                    </configuration>
+                </plugin>
+
+                <plugin>
+                    <groupId>com.jayway.maven.plugins.android.generation2</groupId>
+                    <artifactId>android-maven-plugin</artifactId>
+                    <version>${android-maven-plugin.version}</version>
+                    <configuration>
+                        <sdk>
+                            <platform>${android.sdk.platform}</platform>
+                        </sdk>
+                        <lintEnableLibraries>true</lintEnableLibraries>
+                        <lintFailOnError>false</lintFailOnError>
+                        <lintEnableHtml>true</lintEnableHtml>
+                        <lintConfig>${project.basedir}/lint.xml</lintConfig>
+                        <lintSkip>false</lintSkip>
+                        <extractDuplicates>true</extractDuplicates>
+                    </configuration>
+                </plugin>
+
+                <plugin>
+                    <groupId>org.codehaus.mojo</groupId>
+                    <artifactId>build-helper-maven-plugin</artifactId>
+                    <version>${build-helper-maven-plugin.version}</version>
+                </plugin>
+
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-source-plugin</artifactId>
+                    <version>${maven-source-plugin.version}</version>
+                </plugin>
+
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-javadoc-plugin</artifactId>
+                    <version>${maven-javadoc-plugin.version}</version>
+                </plugin>
+
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-release-plugin</artifactId>
+                    <version>${maven-release-plugin.version}</version>
+                    <configuration>
+                        <tagNameFormat>@{project.version}</tagNameFormat>
+                        <autoVersionSubmodules>true</autoVersionSubmodules>
+                    </configuration>
+                </plugin>
+            </plugins>
+        </pluginManagement>
+    </build>
+
+</project> 
