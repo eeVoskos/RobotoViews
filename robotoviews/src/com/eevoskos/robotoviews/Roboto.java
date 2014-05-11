@@ -20,7 +20,7 @@ import android.util.SparseArray;
 public class Roboto implements RobotoValues {
 
     // Debug mode flag
-    private static final boolean DEBUG = false;
+    private static final boolean DEBUG = true;
     
     // TAG for logging
     private static final String TAG = "Roboto";
