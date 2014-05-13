@@ -20,20 +20,19 @@
 
     <modules>
         <module>robotoviews</module>
-        <module>sample</module>
+       <!-- <module>sample</module> -->
     </modules>
 
     <scm>
-        <url>https://github.com/eeVoskos/RobotoViews</url>
-        <connection>scm:git:git://github.com/Ultimus85/RobotoViews.git</connection>
+        <connection>scm:git:git@github.com/eeVoskos/RobotoViews.git</connection>
         <developerConnection>scm:git:git@github.com:eeVoskos/RobotoViews.git</developerConnection>
-        <tag>HEAD</tag>
+        <url>git@github.com:eeVoskos/RobotoViews.git</url>
     </scm>
 
     <developers>
       <developer>
-            <name>Chris Margonis</name>
-            <email>chris.margonis@gmail.com</email>
+            <name>Stratos Theodorou</name>
+            <email>eeVoskos@gmail.com</email>
         </developer>
     </developers>
 
