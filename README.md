@@ -1,7 +1,7 @@
 RobotoViews
 ===========
-RobotoViews is an Android library hosting a collection of Views that use the 
-[Roboto][1] font, including the newest member of the family, Roboto Slab. 
+RobotoViews is an Android library hosting a collection of Views that use the
+[Roboto][1] font, including the newest member of the family, Roboto Slab.
 The current version includes the following views:
 - `RobotoTextView`
 - `RobotoButton`
@@ -15,7 +15,27 @@ The current version includes the following views:
 
 Usage
 =====
-Import RobotoViews as an Android library project and reference it in your project. 
+
+Maven
+--
+```
+dependency>
+  <groupId>com.eevoskos</groupId>
+  <artifactId>robotoviews</artifactId>
+  <version>1.0.0-SNAPSHOT</version>
+  <type>aar</type>
+</dependency>
+```
+Gradle
+---
+```
+compile 'com.eevoskos:robotoviews:1.0.+@aar'
+```
+Eclipse Library Project
+---
+Download the project, import it in Eclipse as an Android library project and reference it in your project.
+
+----
 Then simply add Roboto views programmatically or in your xml layouts like this:
 ```
 <?xml version="1.0" encoding="utf-8"?>
@@ -56,7 +76,7 @@ slab_light
 slab_thin
 ```
 
-The loading of the typefaces is handled by the library. The typefaces are lazily loaded 
+The loading of the typefaces is handled by the library. The typefaces are lazily loaded
 from the resources when necessary  and kept in memory for future use at runtime.
 
 Sample
