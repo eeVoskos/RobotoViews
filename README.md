@@ -1,5 +1,9 @@
 RobotoViews
 ===========
+
+### Deprecation
+This library is deprecated. Thank you for using it! You can go ahead to use more feature-complete libraries like [Calligraphy](https://github.com/chrisjenx/Calligraphy), or modern techniques like [font binding](https://github.com/lisawray/fontbinding).
+
 RobotoViews is an Android library hosting a collection of Views that use the
 [Roboto][1] font, including the newest member of the family, Roboto Slab.
 The current version includes the following views:
